@@ -13,11 +13,9 @@
   "author": "t9m",
   "license": "BSD",
   "readmeFilename": "README.md",
-  "gitHead": "bf002e7870549a896cb7ec22ea5a7dd94218b445"
+  "gitHead": "bf002e7870549a896cb7ec22ea5a7dd94218b445",
   "dependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib": "~0.6.0",
-    "grunt-contrib-coffee": "~0.6.4",
-    "grunt-contrib-jasmine": "~0.4.1"
+    "grunt-contrib": "~0.6.0"
   }
 }
