@@ -5,18 +5,18 @@ module.exports = (grunt) ->
         expand: true
         options:
           bare: true
-        cwd: './spec/coffee'
+        cwd: 'spec/coffee'
         src: '*.coffee'
-        dest: './spec'
+        dest: 'spec'
         ext: '.js'
 
     jasmine:
       product:
-        src: './src/*.js'
+        src: 'src/*.js'
         options:
-          #host: 'http://localhost:3000/'
-          specs: './spec/*Spec.js'
-          #helpers: 'test/spec/*Helpers.js'
+          specs: 'spec/*Spec.js'
+          vendor: 'spec/vendor/*.js'
+          helpers: 'spec/helpers/*.js'
 
   grunt.loadNpmTasks 'grunt-contrib'
 
