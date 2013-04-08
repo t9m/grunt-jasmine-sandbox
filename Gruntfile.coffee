@@ -14,6 +14,7 @@ module.exports = (grunt) ->
       product:
         src: 'src/*.js'
         options:
+          host: 'http://127.0.0.1:8000/'
           specs: 'spec/*Spec.js'
           vendor: 'spec/vendor/*.js'
           helpers: 'spec/helpers/*.js'
