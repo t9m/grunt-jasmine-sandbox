@@ -10,6 +10,11 @@ module.exports = (grunt) ->
         dest: 'spec'
         ext: '.js'
 
+    connect:
+      jasmine:
+        options:
+          port: 8000
+
     jasmine:
       product:
         src: 'src/*.js'
@@ -21,4 +26,4 @@ module.exports = (grunt) ->
 
   grunt.loadNpmTasks 'grunt-contrib'
 
-  grunt.registerTask 'test', ['coffee', 'jasmine:product']
+  grunt.registerTask 'test', ['coffee', 'connect:jasmine', 'jasmine:product']
