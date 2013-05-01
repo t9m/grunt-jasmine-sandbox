@@ -13,13 +13,13 @@ module.exports = (grunt) ->
     connect:
       jasmine:
         options:
-          port: 8000
+          port: 3000
 
     jasmine:
       product:
         src: 'src/*.js'
         options:
-          host: 'http://127.0.0.1:8000/'
+          host: 'http://localhost:3000/'
           specs: 'spec/*Spec.js'
           vendor: 'spec/vendor/*.js'
           helpers: 'spec/helpers/*.js'
