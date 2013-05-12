@@ -4,13 +4,13 @@
   "description": "grunt-jasmine-sandbox",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/t9m/grunt-jasmine-sandbox.git"
+    "url": "git://github.com/t93/grunt-jasmine-sandbox.git"
   },
-  "author": "t9m",
+  "author": "t93",
   "license": "BSD",
   "readmeFilename": "README.md",
   "gitHead": "bf002e7870549a896cb7ec22ea5a7dd94218b445",
